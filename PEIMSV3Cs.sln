@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PEIMSV3Cs", "PEIMSV3Cs\PEIMSV3Cs.csproj", "{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "PEIMSSetup", "PEIMSSetup\PEIMSSetup.isproj", "{ECC423C6-952B-4294-BF89-39B697E600F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75} = {6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		CD_ROM|x86 = CD_ROM|x86
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		DVD-5|Any CPU = DVD-5|Any CPU
+		DVD-5|x86 = DVD-5|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+		SingleImage|Any CPU = SingleImage|Any CPU
+		SingleImage|x86 = SingleImage|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.CD_ROM|x86.ActiveCfg = Release|x86
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.CD_ROM|x86.Build.0 = Release|x86
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.Debug|x86.ActiveCfg = Debug|x86
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.Debug|x86.Build.0 = Debug|x86
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.DVD-5|x86.ActiveCfg = Debug|x86
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.DVD-5|x86.Build.0 = Debug|x86
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.Release|x86.ActiveCfg = Release|x86
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.Release|x86.Build.0 = Release|x86
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.SingleImage|x86.ActiveCfg = Release|x86
+		{6B2CC0CF-6038-4D47-B31E-FD12BF9D7C75}.SingleImage|x86.Build.0 = Release|x86
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.CD_ROM|x86.ActiveCfg = CD_ROM
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.CD_ROM|x86.Build.0 = CD_ROM
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.Debug|Any CPU.ActiveCfg = SingleImage
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.Debug|Any CPU.Build.0 = SingleImage
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.Debug|x86.ActiveCfg = DVD-5
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.Debug|x86.Build.0 = DVD-5
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.DVD-5|Any CPU.Build.0 = DVD-5
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.DVD-5|x86.ActiveCfg = DVD-5
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.DVD-5|x86.Build.0 = DVD-5
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.Release|Any CPU.ActiveCfg = SingleImage
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.Release|Any CPU.Build.0 = SingleImage
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.Release|x86.ActiveCfg = SingleImage
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.Release|x86.Build.0 = SingleImage
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.SingleImage|Any CPU.Build.0 = SingleImage
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.SingleImage|x86.ActiveCfg = SingleImage
+		{ECC423C6-952B-4294-BF89-39B697E600F4}.SingleImage|x86.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
